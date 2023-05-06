@@ -2,10 +2,19 @@
     margin: 0;
 }
 body {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+
     
 }
-
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+/* section 1 */
 .landingPart{
     width: 100%;
     height: 600px;
@@ -15,12 +24,13 @@ body {
    
 }
 .landingPart .detailsDiv{
-    padding: 15% 20%;
+    padding: 15% 15%;
 }
 .landingPart h1{
-    font-size: 45px;
+    font-size: 50px;
     color: rgb(255, 255, 255);
     text-align: center;
+    font-weight: 700;
 }
 .landingPart p{
     color: rgb(255, 255, 255);
@@ -33,15 +43,8 @@ body {
     justify-content: center;
 
 }
-.landingPart div a{
-    text-decoration: none;
-    color: white;
-    background-color: tomato;
-    padding: 10px 18px;
-    border-radius: 5px;
-   
-}
 
+/* section 2 */
 
 
 .donateAmount{
@@ -80,13 +83,7 @@ body {
     display: flex;
     justify-content: center;
 }
-.donateAmount .detailsDiv .donateBtn a{
-    text-decoration: none;
-    color: white;
-    background-color: tomato;
-    padding: 10px 18px;
-    border-radius: 5px;
-}
+
 #otherAmount{
     margin : 50px 10% 20px 10%;
     border-bottom: 1px solid rgb(165, 165, 165);
@@ -94,4 +91,149 @@ body {
     font-size: 14px;
     
     color:rgb(181, 181, 181)
+}
+
+/* section 3 */
+
+.donatePlan .headingDiv{
+    margin: 0 22%;
+}
+.donatePlan .headingDiv h1{
+    font-size: 32px;
+    text-align: center;
+}
+.donatePlan .headingDiv p {
+    text-align: center;
+    margin: 30px 0;
+    color: gray;
+}
+.donatePlan .planDiv {
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.donatePlan .planDiv h1{
+    font-size: 20px;
+    padding: 20px 0;
+}
+.donatePlan .planDiv p{
+    font-size: 14px;
+    color: gray;
+   
+}
+.food{
+    background-color: #edf5f6;
+    padding: 40px 20px;
+    width: 26%;
+    border-radius: 5px;
+}
+.shelter{
+    background-color: #ffeeee;
+    padding: 30px 20px;
+    width: 26%;
+    border-radius: 5px;
+}
+.edu{
+    background-color: #fff4d6;
+    padding: 30px 20px;
+    width: 26%;
+    border-radius: 5px;
+    
+}
+
+/* section 4 */
+
+.lives{
+    display: flex;
+    justify-content: space-around;
+    margin: 150px 10%;
+}
+.lives .livesInfo h1{
+    font-size: 30px;
+    padding: 15px 0;
+}
+.lives .livesInfo p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: gray;
+}
+.lives .livesImg{
+    display: flex;
+    justify-content: center;
+}
+.lives .livesImg img {
+    width: 80%;
+    border-radius: 5px;
+
+}
+#lImg{
+    width:110%;
+}
+#lInfo{
+    margin-left: 80px;
+    width: 80%;
+}
+
+
+.contact{
+    margin-bottom: 100px;
+}
+.contact .headingDiv{
+    margin: 0 22%;
+}
+.contact .headingDiv h1{
+    font-size: 32px;
+    text-align: center;
+}
+.contact .headingDiv p {
+    text-align: center;
+    margin: 30px 0;
+    color: gray;
+}
+.contact .mail{
+    margin: 50px 20%;
+    height: 200px;
+    background-color: #ffeeee;
+}
+.contact .mail .mailLabel{
+    display: flex;
+    justify-content: center;
+    padding-top: 12%;
+}
+.contact .mail .mailLabel input{
+    color: gray;
+    background-color: rgb(210, 210, 210);
+    /* padding: 5px 20px; */
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 2px;
+    border: 4px solid rgb(210, 210, 210);
+}
+.btn1{
+   text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 7px 25px;
+    border-radius: 5px;
+    font-weight: 500;
+
+}
+
+
+.footer{
+    height: 150px;
+    background-color: black;
+}
+.footer h1{
+    padding:50px 0 15px 0;
+    color: tomato;
+    text-align: center;
+    font-family: 'Mr Dafoe', cursive;
+}
+
+.footer p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 12px;
 }
